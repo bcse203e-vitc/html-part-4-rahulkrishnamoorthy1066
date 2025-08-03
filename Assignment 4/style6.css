@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    z-index: 10;
+  }
+  
+  .container {
+    display: flex;
+    margin-top: 70px;
+  }
+  
+  .sidebar {
+    width: 25%;
+    background: #f4f4f4;
+    height: 100vh;
+    overflow: auto;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  .content {
+    width: 75%;
+    padding: 20px;
+    column-count: 2;
+    column-gap: 30px;
+    box-sizing: border-box;
+  }
+  
+  .content h1 {
+    column-span: all;
+    margin-top: 0;
+  }
+  
